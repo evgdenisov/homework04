@@ -1,0 +1,70 @@
+body {
+    font-family: "Courier New";
+}
+table {
+    border-spacing: 0 0;
+    border-right-style: dotted;
+    border-top-style: dotted;
+    border-left-style: dotted;
+    border-bottom-style: dotted;
+}
+tr td {
+    
+    padding: 15px;
+    border-right-style: dotted;
+    border-top-style: none;
+    border-left-style: none;
+    border-bottom-style: dotted;
+
+}
+
+ul {
+    padding-left: 40px;
+    
+}
+
+ol {
+    padding-left: 52px;   
+}
+
+.note {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.wiki {
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.step2 {
+    list-style-image: url(mark.jpg);
+}
+
+.step4 {
+    list-style-type: decimal-leading-zero;
+
+}
+
+.step4 li {
+    
+    padding-left: 35px;
+
+}
+
+.step5 {
+
+    list-style-type: none;
+
+    }
+
+.step5 li:before {
+        content: "➔";
+        font-size: 60px;
+       }
+
+
+.info {
+    color: rgba(71, 17, 135, 0.80);
+}
+
