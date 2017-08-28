@@ -1,20 +1,22 @@
 body {
     font-family: "Courier New";
 }
+
 table {
-    border-spacing: 0 0;
-    border-right-style: dotted;
-    border-top-style: dotted;
-    border-left-style: dotted;
-    border-bottom-style: dotted;
+    border-width: 1px;
+    border-spacing: 0;
+    border-style: dotted;
+    border-right-style: none;
+    border-bottom-style: none;
 }
+
 tr td {
     
+    border-width: 1px;
     padding: 15px;
-    border-right-style: dotted;
+    border-style: dotted;
     border-top-style: none;
     border-left-style: none;
-    border-bottom-style: dotted;
 
 }
 
@@ -54,17 +56,21 @@ ol {
 
 .step5 {
 
-    list-style-type: none;
-
-    }
-
-.step5 li:before {
-        content: "➔";
-        font-size: 60px;
-       }
-
-
-.info {
-    color: rgba(71, 17, 135, 0.80);
+    list-style-type: "➔";
+    font-size: 50px;
 }
 
+.info {
+    font-size: 14px;
+    list-style-type: none;
+    color: rgba(71, 17, 135, 0.80);
+    padding-left: 5px;
+}
+
+.step3 {
+    list-style-type: upper-alpha;
+}
+
+span {
+    font-size: 16px;
+}
