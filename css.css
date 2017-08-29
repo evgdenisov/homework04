@@ -3,21 +3,23 @@ body {
 }
 
 table {
-    border-width: 1px;
-    border-spacing: 0;
-    border-style: dotted;
-    border-right-style: none;
-    border-bottom-style: none;
+    border: 1px solid;   
+    border-collapse: collapse;
+    border-color: black;
+    
 }
+
+tr th {     
+        border: 1px solid;
+        padding: 15px;
+        border-color: black;  
+    }
 
 tr td {
     
-    border-width: 1px;
+    border: 1px solid;
     padding: 15px;
-    border-style: dotted;
-    border-top-style: none;
-    border-left-style: none;
-
+    border-color: black;
 }
 
 ul {
@@ -55,9 +57,13 @@ ol {
 }
 
 .step5 {
-
-    list-style-type: "➔";
+    list-style-type: none;
     font-size: 50px;
+    padding-left: 65px;
+}
+     
+.step5 li:before { 
+    content: "➔"; 
 }
 
 .info {
@@ -71,6 +77,6 @@ ol {
     list-style-type: upper-alpha;
 }
 
-span {
+.size16 {
     font-size: 16px;
 }
